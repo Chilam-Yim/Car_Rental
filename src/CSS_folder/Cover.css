@@ -1,0 +1,29 @@
+/* ffd83a */
+
+.container {
+  position: relative;
+  background-color: rgb(250, 250, 250);
+}
+
+.container .slogan-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.slogan1 {
+    color:white;
+    margin-bottom: 50px;
+    font-size:50px;
+    text-shadow: 0 2px 2px #4d4d4d; 
+    letter-spacing: 0.1em;
+
+}
+.slogan2 {
+    font-size:50px;
+color:#ffd83a;
+text-shadow: 0 2px 2px #646464; 
+text-align: right;
+}

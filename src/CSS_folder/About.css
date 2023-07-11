@@ -1,0 +1,130 @@
+/* #ffd83a */
+
+.aboutContainer {
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(250, 250, 250);
+  padding-bottom: 80px;
+}
+
+.tire {
+  opacity: 0.2;
+  z-index: -100;
+}
+
+.carGroupsContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.carGroups {
+  width: 1000px;
+  height: auto;
+}
+
+.Why_Container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.Why {
+  
+  margin-top: 50px;
+   font-size: 30px;
+color:#ffd83a;
+     padding: 15px;
+background-color: black;
+}
+
+.subAboutContainer {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  
+
+}
+
+
+.subAbout{
+  max-width:1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.leftContent {
+  display: flex;
+  justify-content: center;
+
+}
+
+.save {
+  margin-bottom: 30px;
+  font-size: 60px;
+}
+
+.for {
+  color: #777777;
+  line-height: 2;
+}
+
+.numberRefCon {
+  margin-top: 50px;
+  padding: 1px;
+
+  font-size: 120px;
+  text-align: center;
+  width: 410px;
+}
+
+.textRef {
+  font-size: 50px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.iconPackContainer {
+  justify-content: space-evenly;
+}
+
+.iconContainer {
+  padding: 18px;
+  display: flex;
+}
+
+.icon {
+  height: 50px;
+  width: auto;
+  background-color: #fff7da;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.iconText {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  color: #777777;
+  line-height: 2;
+}
+
+.feature {
+  font-weight: bolder;
+  font-size: 20px;
+  color: #ffd83a;
+  text-shadow: #000000;
+}

@@ -1,0 +1,44 @@
+/* ffd83a */
+
+.PartnerContainer{
+
+    background-color: rgb(250, 250, 250);
+    padding-top:60px;
+    padding-bottom:80px;
+    
+
+}
+
+.partnerHeader{
+display: flex;
+justify-content: center;
+font-size: 30px;
+margin-bottom: 30px;
+letter-spacing: 0.2em;
+}
+
+.subPartnerContainer{
+    display:flex;
+    justify-content: center;
+}
+
+
+
+.column{
+margin-bottom: -10px;
+}
+
+.partner_logo {
+  height: 150px;
+  width: auto;
+  transition: transform 0.2s ease;
+  position: relative; /* Add this line */
+  transform: scale(1);
+}
+
+.partner_logo:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  z-index: 10;
+}
+

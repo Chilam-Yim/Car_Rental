@@ -1,0 +1,40 @@
+/* #ffd83a */
+
+.QandAContainer{
+    background-color: rgb(250, 250, 250);
+    
+    
+    
+}
+
+.subQandAContainer{
+   display:flex;
+    justify-content: center;
+}
+
+.aQandAHeaderContainer{
+ display:flex;
+    justify-content: center;
+
+
+
+}
+.aQandAHeader{
+     
+     font-size: 30px;
+color:#ffd83a;
+     padding: 15px;
+background-color: black;
+     margin-bottom: 10px;
+
+
+    
+         
+}
+
+
+
+.q_a{
+
+    max-width: 1200px;
+}
